@@ -67,7 +67,9 @@ function Home() {
   } else {
     return (
       <div>
-        <p>Error occurs</p>
+        <h2 className="text-red-600">
+          Error occurs, bad internet connection!!
+        </h2>
       </div>
     );
   }
